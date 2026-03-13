@@ -42,10 +42,19 @@
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s;
 }
 
 .item:hover {
   background-color: #f5f5f5;
+}
+
+.active {
+  background-color: #e6f7ed;
+  color: #1b8c3e;
+  font-weight: 600;
 }
 
 .dot {

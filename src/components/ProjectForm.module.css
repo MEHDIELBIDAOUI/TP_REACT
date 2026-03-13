@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input:focus {
+  border-color: #1B8C3E;
+  outline: none;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.submit {
+  background: #1B8C3E;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel {
+  background: #ccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
